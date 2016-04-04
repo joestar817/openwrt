@@ -1,0 +1,49 @@
+/dts-v1/;
+
+/include/ "H351.dtsi"
+
+/ {
+	compatible = "h351", "ralink,mt7620a-soc";
+	model = "h351";
+
+	ethernet@10100000 {
+		pinctrl-names = "default";
+		pinctrl-0 = <&ephy_pins>;
+		mtd-mac-address = <&factory 0x4>;
+		mediatek,portmap = "llllw";
+	};
+
+	gpio-leds {
+		compatible = "gpio-leds";
+
+		power1 {
+			label = "h351:blue:power";
+			gpios = <&gpio0 9 1>;
+		};
+
+		wlan1 {
+			label = "h351:blue:wifi";
+			gpios = <&gpio3 0 1>;
+		};
+
+		wlan2 {
+			label = "h351:blue:wifi5g";
+			gpios = <&gpio2 10 1>;
+		};
+
+		usb {
+			label = "h351:blue:usb";
+			gpios = <&gpio2 12 1>;
+		};
+
+		lan {
+			label = "h351:blue:lan";
+			gpios = <&gpio2 15 1>;
+		};
+
+		internet {
+			label = "h351:blue:internet";
+			gpios = <&gpio2 11 1>;
+		};
+	};
+};

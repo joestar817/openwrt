@@ -1,0 +1,19 @@
+Source-Makefile: package/kernel/brcm2708-gpu-fw/Makefile
+Package: brcm2708-gpu-fw
+Default: y if TARGET_brcm2708
+Version: 20160304-1
+Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread @TARGET_brcm2708
+Conflicts: 
+Menu-Depends: 
+Provides: 
+Section: boot
+Category: Boot Loaders
+Title: brcm2708-gpu-fw
+Maintainer: 
+Source: 30fe8178d61c1ff9bc168edaafdbcb101aa6245e.tar.gz
+Type: ipkg
+Description:  GPU and kernel boot firmware for brcm2708. 
+
+@@
+
+
