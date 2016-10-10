@@ -8,12 +8,12 @@ Provides:
 Section: utils
 Category: Utilities
 Title: A tool for managing Soft RAID under Linux
-Maintainer: Felix Fietkau <nbd@openwrt.org>
+Maintainer: Felix Fietkau <nbd@nbd.name>
 Source: mdadm-3.2.5.tar.xz
 Type: ipkg
 Description:  A tool for managing Linux Software RAID arrays.
 http://www.kernel.org/pub/linux/utils/raid/mdadm/
-Felix Fietkau <nbd@openwrt.org>
+Felix Fietkau <nbd@nbd.name>
 @@
 
 

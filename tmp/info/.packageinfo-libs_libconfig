@@ -8,7 +8,7 @@ Provides:
 Section: libs
 Category: Libraries
 Title: Configuration File Library
-Maintainer: Felix Fietkau <nbd@openwrt.org>
+Maintainer: Felix Fietkau <nbd@nbd.name>
 Source: libconfig-1.4.9.tar.gz
 License: LGPL-2.1+
 Type: ipkg
@@ -22,7 +22,7 @@ Description:  Libconfig is a simple library for manipulating structured configur
  and 66K for the stripped C++ shared library. This makes it well-suited
  for memory-constrained systems like handheld devices.
 http://www.hyperrealm.com/libconfig/
-Felix Fietkau <nbd@openwrt.org>
+Felix Fietkau <nbd@nbd.name>
 @@
 
 

@@ -2,7 +2,7 @@ Source-Makefile: package/libs/openssl/Makefile
 Package: libopenssl
 Menu: 1
 Submenu: SSL
-Version: 1.0.2g-1
+Version: 1.0.2h-1
 Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread +zlib
 Conflicts: 
 Menu-Depends: 
@@ -12,7 +12,7 @@ Section: libs
 Category: Libraries
 Title: Open source SSL toolkit (libraries)
 Maintainer: 
-Source: openssl-1.0.2g.tar.gz
+Source: openssl-1.0.2h.tar.gz
 License: OpenSSL
 LicenseFiles: LICENSE
 Type: ipkg
@@ -29,7 +29,7 @@ source "package/libs/openssl/Config.in"
 @@
 
 Package: openssl-util
-Version: 1.0.2g-1
+Version: 1.0.2h-1
 Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread +libopenssl
 Conflicts: 
 Menu-Depends: 
@@ -39,7 +39,7 @@ Section: utils
 Category: Utilities
 Title: Open source SSL toolkit (utility)
 Maintainer: 
-Source: openssl-1.0.2g.tar.gz
+Source: openssl-1.0.2h.tar.gz
 License: OpenSSL
 LicenseFiles: LICENSE
 Type: ipkg

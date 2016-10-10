@@ -8,13 +8,13 @@ Provides:
 Section: libs
 Category: Libraries
 Title: Minimum, easy-to-use, C implementation for xml file parsing
-Maintainer: Felix Fietkau <nbd@openwrt.org>
+Maintainer: Felix Fietkau <nbd@nbd.name>
 Source: libroxml-2.3.0.tar.gz
 License: LGPL-2.1+
 Type: ipkg
 Description: Minimum, easy-to-use, C implementation for xml file parsing
 http://www.libroxml.net/
-Felix Fietkau <nbd@openwrt.org>
+Felix Fietkau <nbd@nbd.name>
 @@
 
 

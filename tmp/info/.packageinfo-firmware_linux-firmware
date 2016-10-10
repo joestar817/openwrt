@@ -8,12 +8,12 @@ Provides:
 Section: firmware
 Category: Firmware
 Title: TI WL12xx firmware
-Maintainer: Felix Fietkau <nbd@openwrt.org>
+Maintainer: Felix Fietkau <nbd@nbd.name>
 Source: linux-firmware-2016-01-25-52442afee9907bc32a058f22bb3295d040677c26.tar.xz
 Type: ipkg
 Description: TI WL12xx firmware
 http://git.kernel.org/cgit/linux/kernel/git/firmware/linux-firmware.git
-Felix Fietkau <nbd@openwrt.org>
+Felix Fietkau <nbd@nbd.name>
 @@
 
 Package: wl18xx-firmware
@@ -25,12 +25,12 @@ Provides:
 Section: firmware
 Category: Firmware
 Title: TI WL18xx firmware
-Maintainer: Felix Fietkau <nbd@openwrt.org>
+Maintainer: Felix Fietkau <nbd@nbd.name>
 Source: linux-firmware-2016-01-25-52442afee9907bc32a058f22bb3295d040677c26.tar.xz
 Type: ipkg
 Description: TI WL18xx firmware
 http://git.kernel.org/cgit/linux/kernel/git/firmware/linux-firmware.git
-Felix Fietkau <nbd@openwrt.org>
+Felix Fietkau <nbd@nbd.name>
 @@
 
 Package: ibt-firmware
@@ -42,12 +42,12 @@ Provides:
 Section: firmware
 Category: Firmware
 Title: Intel bluetooth firmware
-Maintainer: Felix Fietkau <nbd@openwrt.org>
+Maintainer: Felix Fietkau <nbd@nbd.name>
 Source: linux-firmware-2016-01-25-52442afee9907bc32a058f22bb3295d040677c26.tar.xz
 Type: ipkg
 Description: Intel bluetooth firmware
 http://git.kernel.org/cgit/linux/kernel/git/firmware/linux-firmware.git
-Felix Fietkau <nbd@openwrt.org>
+Felix Fietkau <nbd@nbd.name>
 @@
 
 Package: iwl3945-firmware
@@ -59,12 +59,12 @@ Provides:
 Section: firmware
 Category: Firmware
 Title: Intel IWL3945 firmware
-Maintainer: Felix Fietkau <nbd@openwrt.org>
+Maintainer: Felix Fietkau <nbd@nbd.name>
 Source: linux-firmware-2016-01-25-52442afee9907bc32a058f22bb3295d040677c26.tar.xz
 Type: ipkg
 Description: Intel IWL3945 firmware
 http://git.kernel.org/cgit/linux/kernel/git/firmware/linux-firmware.git
-Felix Fietkau <nbd@openwrt.org>
+Felix Fietkau <nbd@nbd.name>
 @@
 
 Package: iwl4965-firmware
@@ -76,12 +76,12 @@ Provides:
 Section: firmware
 Category: Firmware
 Title: Intel IWL4965 firmware
-Maintainer: Felix Fietkau <nbd@openwrt.org>
+Maintainer: Felix Fietkau <nbd@nbd.name>
 Source: linux-firmware-2016-01-25-52442afee9907bc32a058f22bb3295d040677c26.tar.xz
 Type: ipkg
 Description: Intel IWL4965 firmware
 http://git.kernel.org/cgit/linux/kernel/git/firmware/linux-firmware.git
-Felix Fietkau <nbd@openwrt.org>
+Felix Fietkau <nbd@nbd.name>
 @@
 
 Package: iwlwifi-firmware
@@ -93,12 +93,12 @@ Provides:
 Section: firmware
 Category: Firmware
 Title: Intel wireless firmware
-Maintainer: Felix Fietkau <nbd@openwrt.org>
+Maintainer: Felix Fietkau <nbd@nbd.name>
 Source: linux-firmware-2016-01-25-52442afee9907bc32a058f22bb3295d040677c26.tar.xz
 Type: ipkg
 Description: Intel wireless firmware
 http://git.kernel.org/cgit/linux/kernel/git/firmware/linux-firmware.git
-Felix Fietkau <nbd@openwrt.org>
+Felix Fietkau <nbd@nbd.name>
 @@
 Config:
   if PACKAGE_iwlwifi-firmware
@@ -225,12 +225,12 @@ Provides:
 Section: firmware
 Category: Firmware
 Title: MediaTek MT7601U firmware
-Maintainer: Felix Fietkau <nbd@openwrt.org>
+Maintainer: Felix Fietkau <nbd@nbd.name>
 Source: linux-firmware-2016-01-25-52442afee9907bc32a058f22bb3295d040677c26.tar.xz
 Type: ipkg
 Description: MediaTek MT7601U firmware
 http://git.kernel.org/cgit/linux/kernel/git/firmware/linux-firmware.git
-Felix Fietkau <nbd@openwrt.org>
+Felix Fietkau <nbd@nbd.name>
 @@
 
 Package: rt2800-pci-firmware
@@ -242,12 +242,12 @@ Provides:
 Section: firmware
 Category: Firmware
 Title: Ralink RT28xx/3xxx PCI/SoC firmware
-Maintainer: Felix Fietkau <nbd@openwrt.org>
+Maintainer: Felix Fietkau <nbd@nbd.name>
 Source: linux-firmware-2016-01-25-52442afee9907bc32a058f22bb3295d040677c26.tar.xz
 Type: ipkg
 Description: Ralink RT28xx/3xxx PCI/SoC firmware
 http://git.kernel.org/cgit/linux/kernel/git/firmware/linux-firmware.git
-Felix Fietkau <nbd@openwrt.org>
+Felix Fietkau <nbd@nbd.name>
 @@
 
 Package: rt2800-usb-firmware
@@ -259,12 +259,12 @@ Provides:
 Section: firmware
 Category: Firmware
 Title: Ralink RT28xx/3xxx USB firmware
-Maintainer: Felix Fietkau <nbd@openwrt.org>
+Maintainer: Felix Fietkau <nbd@nbd.name>
 Source: linux-firmware-2016-01-25-52442afee9907bc32a058f22bb3295d040677c26.tar.xz
 Type: ipkg
 Description: Ralink RT28xx/3xxx USB firmware
 http://git.kernel.org/cgit/linux/kernel/git/firmware/linux-firmware.git
-Felix Fietkau <nbd@openwrt.org>
+Felix Fietkau <nbd@nbd.name>
 @@
 
 Package: rt61-pci-firmware
@@ -276,12 +276,12 @@ Provides:
 Section: firmware
 Category: Firmware
 Title: Ralink RT2561 firmware
-Maintainer: Felix Fietkau <nbd@openwrt.org>
+Maintainer: Felix Fietkau <nbd@nbd.name>
 Source: linux-firmware-2016-01-25-52442afee9907bc32a058f22bb3295d040677c26.tar.xz
 Type: ipkg
 Description: Ralink RT2561 firmware
 http://git.kernel.org/cgit/linux/kernel/git/firmware/linux-firmware.git
-Felix Fietkau <nbd@openwrt.org>
+Felix Fietkau <nbd@nbd.name>
 @@
 
 Package: rt73-usb-firmware
@@ -293,12 +293,12 @@ Provides:
 Section: firmware
 Category: Firmware
 Title: Ralink RT2573 firmware
-Maintainer: Felix Fietkau <nbd@openwrt.org>
+Maintainer: Felix Fietkau <nbd@nbd.name>
 Source: linux-firmware-2016-01-25-52442afee9907bc32a058f22bb3295d040677c26.tar.xz
 Type: ipkg
 Description: Ralink RT2573 firmware
 http://git.kernel.org/cgit/linux/kernel/git/firmware/linux-firmware.git
-Felix Fietkau <nbd@openwrt.org>
+Felix Fietkau <nbd@nbd.name>
 @@
 
 Package: ar3k-firmware
@@ -310,12 +310,12 @@ Provides:
 Section: firmware
 Category: Firmware
 Title: ath3k firmware
-Maintainer: Felix Fietkau <nbd@openwrt.org>
+Maintainer: Felix Fietkau <nbd@nbd.name>
 Source: linux-firmware-2016-01-25-52442afee9907bc32a058f22bb3295d040677c26.tar.xz
 Type: ipkg
 Description: ath3k firmware
 http://git.kernel.org/cgit/linux/kernel/git/firmware/linux-firmware.git
-Felix Fietkau <nbd@openwrt.org>
+Felix Fietkau <nbd@nbd.name>
 @@
 
 Package: ath9k-htc-firmware
@@ -327,12 +327,12 @@ Provides:
 Section: firmware
 Category: Firmware
 Title: AR9271/AR7010 firmware
-Maintainer: Felix Fietkau <nbd@openwrt.org>
+Maintainer: Felix Fietkau <nbd@nbd.name>
 Source: linux-firmware-2016-01-25-52442afee9907bc32a058f22bb3295d040677c26.tar.xz
 Type: ipkg
 Description: AR9271/AR7010 firmware
 http://git.kernel.org/cgit/linux/kernel/git/firmware/linux-firmware.git
-Felix Fietkau <nbd@openwrt.org>
+Felix Fietkau <nbd@nbd.name>
 @@
 
 Package: carl9170-firmware
@@ -344,12 +344,12 @@ Provides:
 Section: firmware
 Category: Firmware
 Title: AR9170 firmware
-Maintainer: Felix Fietkau <nbd@openwrt.org>
+Maintainer: Felix Fietkau <nbd@nbd.name>
 Source: linux-firmware-2016-01-25-52442afee9907bc32a058f22bb3295d040677c26.tar.xz
 Type: ipkg
 Description: AR9170 firmware
 http://git.kernel.org/cgit/linux/kernel/git/firmware/linux-firmware.git
-Felix Fietkau <nbd@openwrt.org>
+Felix Fietkau <nbd@nbd.name>
 @@
 
 Package: r8169-firmware
@@ -361,12 +361,12 @@ Provides:
 Section: firmware
 Category: Firmware
 Title: RealTek RTL8169 firmware
-Maintainer: Felix Fietkau <nbd@openwrt.org>
+Maintainer: Felix Fietkau <nbd@nbd.name>
 Source: linux-firmware-2016-01-25-52442afee9907bc32a058f22bb3295d040677c26.tar.xz
 Type: ipkg
 Description: RealTek RTL8169 firmware
 http://git.kernel.org/cgit/linux/kernel/git/firmware/linux-firmware.git
-Felix Fietkau <nbd@openwrt.org>
+Felix Fietkau <nbd@nbd.name>
 @@
 
 Package: r8188eu-firmware
@@ -378,12 +378,12 @@ Provides:
 Section: firmware
 Category: Firmware
 Title: RealTek RTL8188EU firmware
-Maintainer: Felix Fietkau <nbd@openwrt.org>
+Maintainer: Felix Fietkau <nbd@nbd.name>
 Source: linux-firmware-2016-01-25-52442afee9907bc32a058f22bb3295d040677c26.tar.xz
 Type: ipkg
 Description: RealTek RTL8188EU firmware
 http://git.kernel.org/cgit/linux/kernel/git/firmware/linux-firmware.git
-Felix Fietkau <nbd@openwrt.org>
+Felix Fietkau <nbd@nbd.name>
 @@
 
 Package: rtl8192ce-firmware
@@ -395,12 +395,12 @@ Provides:
 Section: firmware
 Category: Firmware
 Title: RealTek RTL8192CE firmware
-Maintainer: Felix Fietkau <nbd@openwrt.org>
+Maintainer: Felix Fietkau <nbd@nbd.name>
 Source: linux-firmware-2016-01-25-52442afee9907bc32a058f22bb3295d040677c26.tar.xz
 Type: ipkg
 Description: RealTek RTL8192CE firmware
 http://git.kernel.org/cgit/linux/kernel/git/firmware/linux-firmware.git
-Felix Fietkau <nbd@openwrt.org>
+Felix Fietkau <nbd@nbd.name>
 @@
 
 Package: rtl8192cu-firmware
@@ -412,12 +412,12 @@ Provides:
 Section: firmware
 Category: Firmware
 Title: RealTek RTL8192CU firmware
-Maintainer: Felix Fietkau <nbd@openwrt.org>
+Maintainer: Felix Fietkau <nbd@nbd.name>
 Source: linux-firmware-2016-01-25-52442afee9907bc32a058f22bb3295d040677c26.tar.xz
 Type: ipkg
 Description: RealTek RTL8192CU firmware
 http://git.kernel.org/cgit/linux/kernel/git/firmware/linux-firmware.git
-Felix Fietkau <nbd@openwrt.org>
+Felix Fietkau <nbd@nbd.name>
 @@
 
 Package: rtl8192de-firmware
@@ -429,12 +429,12 @@ Provides:
 Section: firmware
 Category: Firmware
 Title: RealTek RTL8192DE firmware
-Maintainer: Felix Fietkau <nbd@openwrt.org>
+Maintainer: Felix Fietkau <nbd@nbd.name>
 Source: linux-firmware-2016-01-25-52442afee9907bc32a058f22bb3295d040677c26.tar.xz
 Type: ipkg
 Description: RealTek RTL8192DE firmware
 http://git.kernel.org/cgit/linux/kernel/git/firmware/linux-firmware.git
-Felix Fietkau <nbd@openwrt.org>
+Felix Fietkau <nbd@nbd.name>
 @@
 
 Package: rtl8192se-firmware
@@ -446,12 +446,12 @@ Provides:
 Section: firmware
 Category: Firmware
 Title: RealTek RTL8192SE firmware
-Maintainer: Felix Fietkau <nbd@openwrt.org>
+Maintainer: Felix Fietkau <nbd@nbd.name>
 Source: linux-firmware-2016-01-25-52442afee9907bc32a058f22bb3295d040677c26.tar.xz
 Type: ipkg
 Description: RealTek RTL8192SE firmware
 http://git.kernel.org/cgit/linux/kernel/git/firmware/linux-firmware.git
-Felix Fietkau <nbd@openwrt.org>
+Felix Fietkau <nbd@nbd.name>
 @@
 
 Package: mwl8k-firmware
@@ -463,12 +463,12 @@ Provides:
 Section: firmware
 Category: Firmware
 Title: Marvell 8366/8687 firmware
-Maintainer: Felix Fietkau <nbd@openwrt.org>
+Maintainer: Felix Fietkau <nbd@nbd.name>
 Source: linux-firmware-2016-01-25-52442afee9907bc32a058f22bb3295d040677c26.tar.xz
 Type: ipkg
 Description: Marvell 8366/8687 firmware
 http://git.kernel.org/cgit/linux/kernel/git/firmware/linux-firmware.git
-Felix Fietkau <nbd@openwrt.org>
+Felix Fietkau <nbd@nbd.name>
 @@
 
 Package: mwifiex-pcie-firmware
@@ -480,12 +480,12 @@ Provides:
 Section: firmware
 Category: Firmware
 Title: Marvell 8897 firmware
-Maintainer: Felix Fietkau <nbd@openwrt.org>
+Maintainer: Felix Fietkau <nbd@nbd.name>
 Source: linux-firmware-2016-01-25-52442afee9907bc32a058f22bb3295d040677c26.tar.xz
 Type: ipkg
 Description: Marvell 8897 firmware
 http://git.kernel.org/cgit/linux/kernel/git/firmware/linux-firmware.git
-Felix Fietkau <nbd@openwrt.org>
+Felix Fietkau <nbd@nbd.name>
 @@
 
 Package: libertas-usb-firmware
@@ -497,12 +497,12 @@ Provides:
 Section: firmware
 Category: Firmware
 Title: Marvell 8388/8682 USB firmware
-Maintainer: Felix Fietkau <nbd@openwrt.org>
+Maintainer: Felix Fietkau <nbd@nbd.name>
 Source: linux-firmware-2016-01-25-52442afee9907bc32a058f22bb3295d040677c26.tar.xz
 Type: ipkg
 Description: Marvell 8388/8682 USB firmware
 http://git.kernel.org/cgit/linux/kernel/git/firmware/linux-firmware.git
-Felix Fietkau <nbd@openwrt.org>
+Felix Fietkau <nbd@nbd.name>
 @@
 
 Package: libertas-sdio-firmware
@@ -514,12 +514,12 @@ Provides:
 Section: firmware
 Category: Firmware
 Title: Marvell 8385/8686/8688 SDIO firmware
-Maintainer: Felix Fietkau <nbd@openwrt.org>
+Maintainer: Felix Fietkau <nbd@nbd.name>
 Source: linux-firmware-2016-01-25-52442afee9907bc32a058f22bb3295d040677c26.tar.xz
 Type: ipkg
 Description: Marvell 8385/8686/8688 SDIO firmware
 http://git.kernel.org/cgit/linux/kernel/git/firmware/linux-firmware.git
-Felix Fietkau <nbd@openwrt.org>
+Felix Fietkau <nbd@nbd.name>
 @@
 
 Package: libertas-spi-firmware
@@ -531,12 +531,12 @@ Provides:
 Section: firmware
 Category: Firmware
 Title: Marvell 8686 SPI firmware
-Maintainer: Felix Fietkau <nbd@openwrt.org>
+Maintainer: Felix Fietkau <nbd@nbd.name>
 Source: linux-firmware-2016-01-25-52442afee9907bc32a058f22bb3295d040677c26.tar.xz
 Type: ipkg
 Description: Marvell 8686 SPI firmware
 http://git.kernel.org/cgit/linux/kernel/git/firmware/linux-firmware.git
-Felix Fietkau <nbd@openwrt.org>
+Felix Fietkau <nbd@nbd.name>
 @@
 
 Package: brcmfmac-firmware-pcie
@@ -548,12 +548,12 @@ Provides:
 Section: firmware
 Category: Firmware
 Title: Broadcom BCM43xx fullmac PCIe firmware
-Maintainer: Felix Fietkau <nbd@openwrt.org>
+Maintainer: Felix Fietkau <nbd@nbd.name>
 Source: linux-firmware-2016-01-25-52442afee9907bc32a058f22bb3295d040677c26.tar.xz
 Type: ipkg
 Description: Broadcom BCM43xx fullmac PCIe firmware
 http://git.kernel.org/cgit/linux/kernel/git/firmware/linux-firmware.git
-Felix Fietkau <nbd@openwrt.org>
+Felix Fietkau <nbd@nbd.name>
 @@
 
 Package: brcmfmac-firmware-sdio
@@ -565,12 +565,12 @@ Provides:
 Section: firmware
 Category: Firmware
 Title: Broadcom BCM43xx fullmac SDIO firmware
-Maintainer: Felix Fietkau <nbd@openwrt.org>
+Maintainer: Felix Fietkau <nbd@nbd.name>
 Source: linux-firmware-2016-01-25-52442afee9907bc32a058f22bb3295d040677c26.tar.xz
 Type: ipkg
 Description: Broadcom BCM43xx fullmac SDIO firmware
 http://git.kernel.org/cgit/linux/kernel/git/firmware/linux-firmware.git
-Felix Fietkau <nbd@openwrt.org>
+Felix Fietkau <nbd@nbd.name>
 @@
 
 Package: brcmfmac-firmware-usb
@@ -582,12 +582,12 @@ Provides:
 Section: firmware
 Category: Firmware
 Title: Broadcom BCM43xx fullmac USB firmware
-Maintainer: Felix Fietkau <nbd@openwrt.org>
+Maintainer: Felix Fietkau <nbd@nbd.name>
 Source: linux-firmware-2016-01-25-52442afee9907bc32a058f22bb3295d040677c26.tar.xz
 Type: ipkg
 Description: Broadcom BCM43xx fullmac USB firmware
 http://git.kernel.org/cgit/linux/kernel/git/firmware/linux-firmware.git
-Felix Fietkau <nbd@openwrt.org>
+Felix Fietkau <nbd@nbd.name>
 @@
 
 Package: brcmsmac-firmware
@@ -599,12 +599,12 @@ Provides:
 Section: firmware
 Category: Firmware
 Title: Broadcom BCM43xx softmac PCIe firmware
-Maintainer: Felix Fietkau <nbd@openwrt.org>
+Maintainer: Felix Fietkau <nbd@nbd.name>
 Source: linux-firmware-2016-01-25-52442afee9907bc32a058f22bb3295d040677c26.tar.xz
 Type: ipkg
 Description: Broadcom BCM43xx softmac PCIe firmware
 http://git.kernel.org/cgit/linux/kernel/git/firmware/linux-firmware.git
-Felix Fietkau <nbd@openwrt.org>
+Felix Fietkau <nbd@nbd.name>
 @@
 
 

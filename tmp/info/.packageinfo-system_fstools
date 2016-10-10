@@ -1,7 +1,7 @@
 Source-Makefile: package/system/fstools/Makefile
 Package: fstools
 Menu: 1
-Version: 2016-01-10-96415afecef35766332067f4205ef3b2c7561d21
+Version: 2016-04-30-bb92c29fc4cd90d396fc79078eba75fcb01c92ae
 Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread +ubox +NAND_SUPPORT:ubi-utils
 Conflicts: 
 Menu-Depends: 
@@ -10,7 +10,7 @@ Section: base
 Category: Base system
 Title: OpenWrt filesystem tools
 Maintainer: John Crispin <blogic@openwrt.org>
-Source: fstools-2016-01-10-96415afecef35766332067f4205ef3b2c7561d21.tar.gz
+Source: fstools-2016-04-30-bb92c29fc4cd90d396fc79078eba75fcb01c92ae.tar.gz
 License: GPL-2.0
 Type: ipkg
 Description: OpenWrt filesystem tools
@@ -27,7 +27,7 @@ Config:
 @@
 
 Package: block-mount
-Version: 2016-01-10-96415afecef35766332067f4205ef3b2c7561d21
+Version: 2016-04-30-bb92c29fc4cd90d396fc79078eba75fcb01c92ae
 Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread +ubox +libubox +libuci
 Conflicts: 
 Menu-Depends: 
@@ -36,7 +36,7 @@ Section: base
 Category: Base system
 Title: Block device mounting and checking
 Maintainer: John Crispin <blogic@openwrt.org>
-Source: fstools-2016-01-10-96415afecef35766332067f4205ef3b2c7561d21.tar.gz
+Source: fstools-2016-04-30-bb92c29fc4cd90d396fc79078eba75fcb01c92ae.tar.gz
 License: GPL-2.0
 Type: ipkg
 Description: Block device mounting and checking

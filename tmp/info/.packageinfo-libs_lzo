@@ -1,6 +1,6 @@
 Source-Makefile: package/libs/lzo/Makefile
 Package: liblzo
-Version: 2.08-1
+Version: 2.09-1
 Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread 
 Conflicts: 
 Menu-Depends: 
@@ -9,7 +9,7 @@ Section: libs
 Category: Libraries
 Title: A real-time data compression library
 Maintainer: 
-Source: lzo-2.08.tar.gz
+Source: lzo-2.09.tar.gz
 License: GPL-2.0+
 Type: ipkg
 Description:  LZO is a data compression library which is suitable for data de-/compression

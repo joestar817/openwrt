@@ -9,14 +9,14 @@ Build-Variant: full
 Section: net
 Category: Network
 Title: IEEE 802.1x Authenticator (full)
-Maintainer: Felix Fietkau <nbd@openwrt.org>
+Maintainer: Felix Fietkau <nbd@nbd.name>
 Source: hostapd-2016-01-15.tar.bz2
 License: BSD-3-Clause
 Type: ipkg
 Description:  This package contains a full featured IEEE 802.1x/WPA/EAP/RADIUS
  Authenticator.
 http://hostap.epitest.fi/
-Felix Fietkau <nbd@openwrt.org>
+Felix Fietkau <nbd@nbd.name>
 @@
 
 Package: hostapd-mini
@@ -29,13 +29,13 @@ Build-Variant: mini
 Section: net
 Category: Network
 Title: IEEE 802.1x Authenticator (WPA-PSK only)
-Maintainer: Felix Fietkau <nbd@openwrt.org>
+Maintainer: Felix Fietkau <nbd@nbd.name>
 Source: hostapd-2016-01-15.tar.bz2
 License: BSD-3-Clause
 Type: ipkg
 Description:  This package contains a minimal IEEE 802.1x/WPA Authenticator (WPA-PSK only).
 http://hostap.epitest.fi/
-Felix Fietkau <nbd@openwrt.org>
+Felix Fietkau <nbd@nbd.name>
 @@
 
 Package: wpad
@@ -48,14 +48,14 @@ Build-Variant: wpad-full
 Section: net
 Category: Network
 Title: IEEE 802.1x Authenticator/Supplicant (full)
-Maintainer: Felix Fietkau <nbd@openwrt.org>
+Maintainer: Felix Fietkau <nbd@nbd.name>
 Source: hostapd-2016-01-15.tar.bz2
 License: BSD-3-Clause
 Type: ipkg
 Description:  This package contains a full featured IEEE 802.1x/WPA/EAP/RADIUS
  Authenticator and Supplicant
 http://hostap.epitest.fi/
-Felix Fietkau <nbd@openwrt.org>
+Felix Fietkau <nbd@nbd.name>
 @@
 
 Package: wpad-mesh
@@ -68,13 +68,13 @@ Build-Variant: wpad-mesh
 Section: net
 Category: Network
 Title: IEEE 802.1x Authenticator/Supplicant (with 802.11s mesh and SAE support)
-Maintainer: Felix Fietkau <nbd@openwrt.org>
+Maintainer: Felix Fietkau <nbd@nbd.name>
 Source: hostapd-2016-01-15.tar.bz2
 License: BSD-3-Clause
 Type: ipkg
 Description:  This package contains a minimal IEEE 802.1x/WPA Authenticator and Supplicant (with 802.11s mesh and SAE support).
 http://hostap.epitest.fi/
-Felix Fietkau <nbd@openwrt.org>
+Felix Fietkau <nbd@nbd.name>
 @@
 
 Package: wpad-mini
@@ -87,13 +87,13 @@ Build-Variant: wpad-mini
 Section: net
 Category: Network
 Title: IEEE 802.1x Authenticator/Supplicant (WPA-PSK only)
-Maintainer: Felix Fietkau <nbd@openwrt.org>
+Maintainer: Felix Fietkau <nbd@nbd.name>
 Source: hostapd-2016-01-15.tar.bz2
 License: BSD-3-Clause
 Type: ipkg
 Description:  This package contains a minimal IEEE 802.1x/WPA Authenticator and Supplicant (WPA-PSK only).
 http://hostap.epitest.fi/
-Felix Fietkau <nbd@openwrt.org>
+Felix Fietkau <nbd@nbd.name>
 @@
 
 Package: wpa-supplicant
@@ -106,13 +106,13 @@ Build-Variant: supplicant-full
 Section: net
 Category: Network
 Title: WPA Supplicant
-Maintainer: Felix Fietkau <nbd@openwrt.org>
+Maintainer: Felix Fietkau <nbd@nbd.name>
 Source: hostapd-2016-01-15.tar.bz2
 License: BSD-3-Clause
 Type: ipkg
 Description: WPA Supplicant
 http://hostap.epitest.fi/wpa_supplicant/
-Felix Fietkau <nbd@openwrt.org>
+Felix Fietkau <nbd@nbd.name>
 @@
 Config:
 	source "package/network/services/hostapd/Config.in"
@@ -128,13 +128,13 @@ Build-Variant: supplicant-mesh
 Section: net
 Category: Network
 Title: WPA Supplicant (with 802.11s and SAE)
-Maintainer: Felix Fietkau <nbd@openwrt.org>
+Maintainer: Felix Fietkau <nbd@nbd.name>
 Source: hostapd-2016-01-15.tar.bz2
 License: BSD-3-Clause
 Type: ipkg
 Description: WPA Supplicant (with 802.11s and SAE)
 http://hostap.epitest.fi/wpa_supplicant/
-Felix Fietkau <nbd@openwrt.org>
+Felix Fietkau <nbd@nbd.name>
 @@
 
 Package: wpa-supplicant-mini
@@ -147,13 +147,13 @@ Build-Variant: supplicant-mini
 Section: net
 Category: Network
 Title: WPA Supplicant (minimal version)
-Maintainer: Felix Fietkau <nbd@openwrt.org>
+Maintainer: Felix Fietkau <nbd@nbd.name>
 Source: hostapd-2016-01-15.tar.bz2
 License: BSD-3-Clause
 Type: ipkg
 Description: WPA Supplicant (minimal version)
 http://hostap.epitest.fi/wpa_supplicant/
-Felix Fietkau <nbd@openwrt.org>
+Felix Fietkau <nbd@nbd.name>
 @@
 
 Package: wpa-supplicant-p2p
@@ -166,13 +166,13 @@ Build-Variant: supplicant-p2p
 Section: net
 Category: Network
 Title: WPA Supplicant (with Wi-Fi P2P support)
-Maintainer: Felix Fietkau <nbd@openwrt.org>
+Maintainer: Felix Fietkau <nbd@nbd.name>
 Source: hostapd-2016-01-15.tar.bz2
 License: BSD-3-Clause
 Type: ipkg
 Description: WPA Supplicant (with Wi-Fi P2P support)
 http://hostap.epitest.fi/wpa_supplicant/
-Felix Fietkau <nbd@openwrt.org>
+Felix Fietkau <nbd@nbd.name>
 @@
 
 Package: wpa-cli
@@ -184,12 +184,12 @@ Provides:
 Section: net
 Category: Network
 Title: WPA Supplicant command line interface
-Maintainer: Felix Fietkau <nbd@openwrt.org>
+Maintainer: Felix Fietkau <nbd@nbd.name>
 Source: hostapd-2016-01-15.tar.bz2
 License: BSD-3-Clause
 Type: ipkg
 Description: WPA Supplicant command line interface
-Felix Fietkau <nbd@openwrt.org>
+Felix Fietkau <nbd@nbd.name>
 @@
 
 Package: hostapd-utils
@@ -201,14 +201,14 @@ Provides:
 Section: net
 Category: Network
 Title: IEEE 802.1x Authenticator (utils)
-Maintainer: Felix Fietkau <nbd@openwrt.org>
+Maintainer: Felix Fietkau <nbd@nbd.name>
 Source: hostapd-2016-01-15.tar.bz2
 License: BSD-3-Clause
 Type: ipkg
 Description:  This package contains a command line utility to control the
  IEEE 802.1x/WPA/EAP/RADIUS Authenticator.
 http://hostap.epitest.fi/
-Felix Fietkau <nbd@openwrt.org>
+Felix Fietkau <nbd@nbd.name>
 @@
 
 Package: hostapd-common
@@ -220,12 +220,12 @@ Provides:
 Section: net
 Category: Network
 Title: hostapd/wpa_supplicant common support files
-Maintainer: Felix Fietkau <nbd@openwrt.org>
+Maintainer: Felix Fietkau <nbd@nbd.name>
 Source: hostapd-2016-01-15.tar.bz2
 License: BSD-3-Clause
 Type: ipkg
 Description: hostapd/wpa_supplicant common support files
-Felix Fietkau <nbd@openwrt.org>
+Felix Fietkau <nbd@nbd.name>
 @@
 
 Package: hostapd-common-old
@@ -237,12 +237,12 @@ Provides:
 Section: net
 Category: Network
 Title: hostapd/wpa_supplicant common support files (legacy drivers)
-Maintainer: Felix Fietkau <nbd@openwrt.org>
+Maintainer: Felix Fietkau <nbd@nbd.name>
 Source: hostapd-2016-01-15.tar.bz2
 License: BSD-3-Clause
 Type: ipkg
 Description: hostapd/wpa_supplicant common support files (legacy drivers)
-Felix Fietkau <nbd@openwrt.org>
+Felix Fietkau <nbd@nbd.name>
 @@
 
 Package: eapol-test
@@ -255,12 +255,12 @@ Build-Variant: supplicant-full
 Section: net
 Category: Network
 Title: 802.1x authentication test utility
-Maintainer: Felix Fietkau <nbd@openwrt.org>
+Maintainer: Felix Fietkau <nbd@nbd.name>
 Source: hostapd-2016-01-15.tar.bz2
 License: BSD-3-Clause
 Type: ipkg
 Description: 802.1x authentication test utility
-Felix Fietkau <nbd@openwrt.org>
+Felix Fietkau <nbd@nbd.name>
 @@
 
 

@@ -8,14 +8,14 @@ Provides:
 Section: libs
 Category: Libraries
 Title: libusb-0.1 compatibility library
-Maintainer: Felix Fietkau <nbd@openwrt.org>
+Maintainer: Felix Fietkau <nbd@nbd.name>
 Source: libusb-compat-0.1.4.tar.bz2
 License: LGPL-2.1
 Type: ipkg
 Description:   libusb is a C library that gives applications easy access to USB devices on
   many different operating systems.
 http://libusb.wiki.sourceforge.net/
-Felix Fietkau <nbd@openwrt.org>
+Felix Fietkau <nbd@nbd.name>
 @@
 
 

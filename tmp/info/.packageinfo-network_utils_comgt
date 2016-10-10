@@ -8,7 +8,7 @@ Provides:
 Section: utils
 Category: Utilities
 Title: Option/Vodafone 3G/GPRS control tool
-Maintainer: Felix Fietkau <nbd@openwrt.org>
+Maintainer: Felix Fietkau <nbd@nbd.name>
 Source: comgt.0.32.tgz
 License: GPL-2.0+
 Type: ipkg
@@ -16,7 +16,7 @@ Description:  comgt is a scripting language interpreter useful for establishing
  communications on serial lines and through PCMCIA modems as well as GPRS 
  and 3G datacards.
 http://www.pharscape.org/comgt.html
-Felix Fietkau <nbd@openwrt.org>
+Felix Fietkau <nbd@nbd.name>
 @@
 
 Package: comgt-directip
@@ -28,12 +28,12 @@ Provides:
 Section: utils
 Category: Utilities
 Title: Sierra Wireless Direct-IP support
-Maintainer: Felix Fietkau <nbd@openwrt.org>
+Maintainer: Felix Fietkau <nbd@nbd.name>
 Source: comgt.0.32.tgz
 License: GPL-2.0+
 Type: ipkg
 Description: Sierra Wireless Direct-IP support
-Felix Fietkau <nbd@openwrt.org>
+Felix Fietkau <nbd@nbd.name>
 @@
 
 Package: comgt-ncm
@@ -45,12 +45,12 @@ Provides:
 Section: utils
 Category: Utilities
 Title:  NCM 3G/4G Support
-Maintainer: Felix Fietkau <nbd@openwrt.org>
+Maintainer: Felix Fietkau <nbd@nbd.name>
 Source: comgt.0.32.tgz
 License: GPL-2.0+
 Type: ipkg
 Description:  NCM 3G/4G Support
-Felix Fietkau <nbd@openwrt.org>
+Felix Fietkau <nbd@nbd.name>
 @@
 
 

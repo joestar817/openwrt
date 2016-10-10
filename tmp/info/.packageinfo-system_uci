@@ -8,12 +8,12 @@ Provides:
 Section: base
 Category: Base system
 Title: Utility for the Unified Configuration Interface (UCI)
-Maintainer: Felix Fietkau <nbd@openwrt.org>
+Maintainer: Felix Fietkau <nbd@nbd.name>
 Source: uci-2016-02-02.1.tar.gz
 License: LGPL-2.1
 Type: ipkg
 Description: Utility for the Unified Configuration Interface (UCI)
-Felix Fietkau <nbd@openwrt.org>
+Felix Fietkau <nbd@nbd.name>
 @@
 
 Package: libuci
@@ -25,12 +25,12 @@ Provides:
 Section: libs
 Category: Libraries
 Title: C library for the Unified Configuration Interface (UCI)
-Maintainer: Felix Fietkau <nbd@openwrt.org>
+Maintainer: Felix Fietkau <nbd@nbd.name>
 Source: uci-2016-02-02.1.tar.gz
 License: LGPL-2.1
 Type: ipkg
 Description: C library for the Unified Configuration Interface (UCI)
-Felix Fietkau <nbd@openwrt.org>
+Felix Fietkau <nbd@nbd.name>
 @@
 
 Package: libuci-lua
@@ -42,12 +42,12 @@ Provides:
 Section: libs
 Category: Libraries
 Title: Lua plugin for UCI
-Maintainer: Felix Fietkau <nbd@openwrt.org>
+Maintainer: Felix Fietkau <nbd@nbd.name>
 Source: uci-2016-02-02.1.tar.gz
 License: LGPL-2.1
 Type: ipkg
 Description: Lua plugin for UCI
-Felix Fietkau <nbd@openwrt.org>
+Felix Fietkau <nbd@nbd.name>
 @@
 
 

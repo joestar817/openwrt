@@ -8,12 +8,12 @@ Provides:
 Section: libs
 Category: Base system
 Title: C library
-Maintainer: Felix Fietkau <nbd@openwrt.org>
+Maintainer: Felix Fietkau <nbd@nbd.name>
 Source: 
 License: GPL-3.0-with-GCC-exception
 Type: ipkg
 Description: C library
-Felix Fietkau <nbd@openwrt.org>
+Felix Fietkau <nbd@nbd.name>
 @@
 Config:
 	menu "Configuration"
@@ -44,13 +44,13 @@ Provides:
 Section: libs
 Category: Base system
 Title: GCC support library
-Maintainer: Felix Fietkau <nbd@openwrt.org>
+Maintainer: Felix Fietkau <nbd@nbd.name>
 Source: 
 License: GPL-3.0-with-GCC-exception
 Type: ipkg
 Description: GCC support library
 http://gcc.gnu.org/
-Felix Fietkau <nbd@openwrt.org>
+Felix Fietkau <nbd@nbd.name>
 @@
 Config:
 	menu "Configuration"
@@ -81,13 +81,13 @@ Provides:
 Section: libs
 Category: Base system
 Title: Atomic support library
-Maintainer: Felix Fietkau <nbd@openwrt.org>
+Maintainer: Felix Fietkau <nbd@nbd.name>
 Source: 
 License: GPL-3.0-with-GCC-exception
 Type: ipkg
 Description: Atomic support library
 http://gcc.gnu.org/
-Felix Fietkau <nbd@openwrt.org>
+Felix Fietkau <nbd@nbd.name>
 @@
 Config:
 	menu "Configuration"
@@ -118,13 +118,13 @@ Provides:
 Section: libs
 Category: Base system
 Title: GCC support library
-Maintainer: Felix Fietkau <nbd@openwrt.org>
+Maintainer: Felix Fietkau <nbd@nbd.name>
 Source: 
 License: GPL-3.0-with-GCC-exception
 Type: ipkg
 Description: GCC support library
 http://gcc.gnu.org/
-Felix Fietkau <nbd@openwrt.org>
+Felix Fietkau <nbd@nbd.name>
 @@
 Config:
 	menu "Configuration"
@@ -155,13 +155,13 @@ Provides:
 Section: libs
 Category: Base system
 Title: GNU Standard C++ Library v3
-Maintainer: Felix Fietkau <nbd@openwrt.org>
+Maintainer: Felix Fietkau <nbd@nbd.name>
 Source: 
 License: GPL-3.0-with-GCC-exception
 Type: ipkg
 Description: GNU Standard C++ Library v3
 http://gcc.gnu.org/
-Felix Fietkau <nbd@openwrt.org>
+Felix Fietkau <nbd@nbd.name>
 @@
 Config:
 	menu "Configuration"
@@ -192,12 +192,12 @@ Provides:
 Section: libs
 Category: Base system
 Title: POSIX thread library
-Maintainer: Felix Fietkau <nbd@openwrt.org>
+Maintainer: Felix Fietkau <nbd@nbd.name>
 Source: 
 License: GPL-3.0-with-GCC-exception
 Type: ipkg
 Description: POSIX thread library
-Felix Fietkau <nbd@openwrt.org>
+Felix Fietkau <nbd@nbd.name>
 @@
 Config:
 	menu "Configuration"
@@ -228,12 +228,12 @@ Provides:
 Section: libs
 Category: Base system
 Title: POSIX thread library debugging support
-Maintainer: Felix Fietkau <nbd@openwrt.org>
+Maintainer: Felix Fietkau <nbd@nbd.name>
 Source: 
 License: GPL-3.0-with-GCC-exception
 Type: ipkg
 Description: POSIX thread library debugging support
-Felix Fietkau <nbd@openwrt.org>
+Felix Fietkau <nbd@nbd.name>
 @@
 
 Package: librt
@@ -245,12 +245,12 @@ Provides:
 Section: libs
 Category: Base system
 Title: POSIX.1b RealTime extension library
-Maintainer: Felix Fietkau <nbd@openwrt.org>
+Maintainer: Felix Fietkau <nbd@nbd.name>
 Source: 
 License: GPL-3.0-with-GCC-exception
 Type: ipkg
 Description: POSIX.1b RealTime extension library
-Felix Fietkau <nbd@openwrt.org>
+Felix Fietkau <nbd@nbd.name>
 @@
 Config:
 	menu "Configuration"
@@ -281,13 +281,13 @@ Provides:
 Section: libs
 Category: Base system
 Title: GFortran support library
-Maintainer: Felix Fietkau <nbd@openwrt.org>
+Maintainer: Felix Fietkau <nbd@nbd.name>
 Source: 
 License: GPL-3.0-with-GCC-exception
 Type: ipkg
 Description: GFortran support library
 http://gcc.gnu.org/
-Felix Fietkau <nbd@openwrt.org>
+Felix Fietkau <nbd@nbd.name>
 @@
 Config:
 	menu "Configuration"
@@ -318,12 +318,12 @@ Provides:
 Section: utils
 Category: Utilities
 Title: LDD trace utility
-Maintainer: Felix Fietkau <nbd@openwrt.org>
+Maintainer: Felix Fietkau <nbd@nbd.name>
 Source: 
 License: GPL-3.0-with-GCC-exception
 Type: ipkg
 Description: LDD trace utility
-Felix Fietkau <nbd@openwrt.org>
+Felix Fietkau <nbd@nbd.name>
 @@
 Config:
 	menu "Configuration"
@@ -354,12 +354,12 @@ Provides:
 Section: utils
 Category: Utilities
 Title: Shared library path configuration
-Maintainer: Felix Fietkau <nbd@openwrt.org>
+Maintainer: Felix Fietkau <nbd@nbd.name>
 Source: 
 License: GPL-3.0-with-GCC-exception
 Type: ipkg
 Description: Shared library path configuration
-Felix Fietkau <nbd@openwrt.org>
+Felix Fietkau <nbd@nbd.name>
 @@
 Config:
 	menu "Configuration"

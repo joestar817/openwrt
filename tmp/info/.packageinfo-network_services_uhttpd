@@ -10,14 +10,14 @@ Build-Depends: ustream-ssl
 Section: net
 Category: Network
 Title: uHTTPd - tiny, single threaded HTTP server
-Maintainer: Felix Fietkau <nbd@openwrt.org>
+Maintainer: Felix Fietkau <nbd@nbd.name>
 Source: uhttpd-2015-11-08-fe01ef3f52adae9da38ef47926cd50974af5d6b7.tar.gz
 License: ISC
 Type: ipkg
 Description:  uHTTPd is a tiny single threaded HTTP server with TLS, CGI and Lua
  support. It is intended as a drop-in replacement for the Busybox
  HTTP daemon.
-Felix Fietkau <nbd@openwrt.org>
+Felix Fietkau <nbd@nbd.name>
 @@
 Config:
   config PACKAGE_uhttpd_debug
@@ -36,12 +36,12 @@ Build-Depends: ustream-ssl
 Section: net
 Category: Network
 Title: uHTTPd - tiny, single threaded HTTP server (TLS plugin)
-Maintainer: Felix Fietkau <nbd@openwrt.org>
+Maintainer: Felix Fietkau <nbd@nbd.name>
 Source: uhttpd-2015-11-08-fe01ef3f52adae9da38ef47926cd50974af5d6b7.tar.gz
 License: ISC
 Type: ipkg
 Description:  The TLS plugin adds HTTPS support to uHTTPd.
-Felix Fietkau <nbd@openwrt.org>
+Felix Fietkau <nbd@nbd.name>
 @@
 Config:
   choice
@@ -74,12 +74,12 @@ Build-Depends: ustream-ssl
 Section: net
 Category: Network
 Title: uHTTPd - tiny, single threaded HTTP server (Lua plugin)
-Maintainer: Felix Fietkau <nbd@openwrt.org>
+Maintainer: Felix Fietkau <nbd@nbd.name>
 Source: uhttpd-2015-11-08-fe01ef3f52adae9da38ef47926cd50974af5d6b7.tar.gz
 License: ISC
 Type: ipkg
 Description:  The Lua plugin adds a CGI-like Lua runtime interface to uHTTPd.
-Felix Fietkau <nbd@openwrt.org>
+Felix Fietkau <nbd@nbd.name>
 @@
 
 Package: uhttpd-mod-ubus
@@ -93,13 +93,13 @@ Build-Depends: ustream-ssl
 Section: net
 Category: Network
 Title: uHTTPd - tiny, single threaded HTTP server (ubus plugin)
-Maintainer: Felix Fietkau <nbd@openwrt.org>
+Maintainer: Felix Fietkau <nbd@nbd.name>
 Source: uhttpd-2015-11-08-fe01ef3f52adae9da38ef47926cd50974af5d6b7.tar.gz
 License: ISC
 Type: ipkg
 Description:  The ubus plugin adds a HTTP/JSON RPC proxy for ubus and publishes the
  session.* namespace and procedures.
-Felix Fietkau <nbd@openwrt.org>
+Felix Fietkau <nbd@nbd.name>
 @@
 
 

@@ -1,6 +1,6 @@
 Source-Makefile: package/network/services/dropbear/Makefile
 Package: dropbear
-Version: 2015.71-2
+Version: 2015.71-3
 Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread 
 Conflicts: 
 Menu-Depends: 
@@ -22,7 +22,7 @@ Config:
 @@
 
 Package: dropbearconvert
-Version: 2015.71-2
+Version: 2015.71-3
 Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread 
 Conflicts: 
 Menu-Depends: 

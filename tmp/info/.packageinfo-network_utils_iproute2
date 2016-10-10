@@ -115,4 +115,23 @@ http://www.linuxfoundation.org/collaborate/workgroups/networking/iproute2
 Russell Senior <russell@personaltelco.net>
 @@
 
+Package: nstat
+Submenu: Routing and Redirection
+Version: 4.4.0-1
+Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread +libnl-tiny
+Conflicts: 
+Menu-Depends: 
+Provides: 
+Section: net
+Category: Network
+Title: Network statistics utility
+Maintainer: Russell Senior <russell@personaltelco.net>
+Source: iproute2-4.4.0.tar.xz
+License: GPL-2.0
+Type: ipkg
+Description: Network statistics utility
+http://www.linuxfoundation.org/collaborate/workgroups/networking/iproute2
+Russell Senior <russell@personaltelco.net>
+@@
+
 

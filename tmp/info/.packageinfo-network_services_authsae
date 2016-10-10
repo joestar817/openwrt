@@ -8,12 +8,12 @@ Provides:
 Section: net
 Category: Network
 Title: 80211s mesh security
-Maintainer: Felix Fietkau <nbd@openwrt.org>
+Maintainer: Felix Fietkau <nbd@nbd.name>
 Source: authsae-2014-06-09-8531ab158910a525d4bcbb3ad02c08342f6987f2.tar.gz
 License: BSD-4-Clause
 Type: ipkg
 Description: 80211s mesh security
-Felix Fietkau <nbd@openwrt.org>
+Felix Fietkau <nbd@nbd.name>
 @@
 
 

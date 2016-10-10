@@ -9,12 +9,12 @@ Provides:
 Section: net
 Category: Network
 Title: Transparent routing / relay daemon
-Maintainer: Felix Fietkau <nbd@openwrt.org>
+Maintainer: Felix Fietkau <nbd@nbd.name>
 Source: relayd-2016-02-07.tar.bz2
 License: GPL-2.0
 Type: ipkg
 Description: Transparent routing / relay daemon
-Felix Fietkau <nbd@openwrt.org>
+Felix Fietkau <nbd@nbd.name>
 @@
 
 

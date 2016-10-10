@@ -1,6 +1,6 @@
 Source-Makefile: package/utils/util-linux/Makefile
 Package: libblkid
-Version: 2.25.2-4
+Version: 2.28-1
 Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread +libuuid
 Conflicts: 
 Menu-Depends: 
@@ -9,7 +9,7 @@ Section: libs
 Category: Libraries
 Title: block device id library
 Maintainer: 
-Source: util-linux-2.25.2.tar.xz
+Source: util-linux-2.28.tar.xz
 License: GPL-2.0
 LicenseFiles: COPYING getopt/COPYING libblkid/COPYING libmount/COPYING Documentation/licenses/COPYING.GPLv2 Documentation/licenses/COPYING.LGPLv2.1 libuuid/COPYING Documentation/licenses/COPYING.BSD-3
 Type: ipkg
@@ -21,8 +21,27 @@ http://www.kernel.org/pub/linux/utils/util-linux/
 
 @@
 
+Package: libfdisk
+Version: 2.28-1
+Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread +libuuid +libblkid
+Conflicts: 
+Menu-Depends: 
+Provides: 
+Section: libs
+Category: Libraries
+Title: partition manipulating library
+Maintainer: 
+Source: util-linux-2.28.tar.xz
+License: GPL-2.0
+LicenseFiles: COPYING getopt/COPYING libblkid/COPYING libmount/COPYING Documentation/licenses/COPYING.GPLv2 Documentation/licenses/COPYING.LGPLv2.1 libuuid/COPYING Documentation/licenses/COPYING.BSD-3
+Type: ipkg
+Description:   The libfdisk library is used for manipulating with partition tables. 
+http://www.kernel.org/pub/linux/utils/util-linux/
+
+@@
+
 Package: libmount
-Version: 2.25.2-4
+Version: 2.28-1
 Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread +libblkid
 Conflicts: 
 Menu-Depends: 
@@ -31,7 +50,7 @@ Section: libs
 Category: Libraries
 Title: mount library
 Maintainer: 
-Source: util-linux-2.25.2.tar.xz
+Source: util-linux-2.28.tar.xz
 License: GPL-2.0
 LicenseFiles: COPYING getopt/COPYING libblkid/COPYING libmount/COPYING Documentation/licenses/COPYING.GPLv2 Documentation/licenses/COPYING.LGPLv2.1 libuuid/COPYING Documentation/licenses/COPYING.BSD-3
 Type: ipkg
@@ -42,7 +61,7 @@ http://www.kernel.org/pub/linux/utils/util-linux/
 @@
 
 Package: libsmartcols
-Version: 2.25.2-4
+Version: 2.28-1
 Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread 
 Conflicts: 
 Menu-Depends: 
@@ -51,7 +70,7 @@ Section: libs
 Category: Libraries
 Title: table or tree library
 Maintainer: 
-Source: util-linux-2.25.2.tar.xz
+Source: util-linux-2.28.tar.xz
 License: GPL-2.0
 LicenseFiles: COPYING getopt/COPYING libblkid/COPYING libmount/COPYING Documentation/licenses/COPYING.GPLv2 Documentation/licenses/COPYING.LGPLv2.1 libuuid/COPYING Documentation/licenses/COPYING.BSD-3
 Type: ipkg
@@ -61,7 +80,7 @@ http://www.kernel.org/pub/linux/utils/util-linux/
 @@
 
 Package: libuuid
-Version: 2.25.2-4
+Version: 2.28-1
 Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread 
 Conflicts: 
 Menu-Depends: 
@@ -70,7 +89,7 @@ Section: libs
 Category: Libraries
 Title: DCE compatible Universally Unique Identifier library
 Maintainer: 
-Source: util-linux-2.25.2.tar.xz
+Source: util-linux-2.28.tar.xz
 License: GPL-2.0
 LicenseFiles: COPYING getopt/COPYING libblkid/COPYING libmount/COPYING Documentation/licenses/COPYING.GPLv2 Documentation/licenses/COPYING.LGPLv2.1 libuuid/COPYING Documentation/licenses/COPYING.BSD-3
 Type: ipkg
@@ -84,7 +103,7 @@ http://www.kernel.org/pub/linux/utils/util-linux/
 
 Package: agetty
 Submenu: Terminal
-Version: 2.25.2-4
+Version: 2.28-1
 Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread 
 Conflicts: 
 Menu-Depends: 
@@ -93,7 +112,7 @@ Section: utils
 Category: Utilities
 Title: alternative Linux getty
 Maintainer: 
-Source: util-linux-2.25.2.tar.xz
+Source: util-linux-2.28.tar.xz
 License: GPL-2.0
 LicenseFiles: COPYING getopt/COPYING libblkid/COPYING libmount/COPYING Documentation/licenses/COPYING.GPLv2 Documentation/licenses/COPYING.LGPLv2.1 libuuid/COPYING Documentation/licenses/COPYING.BSD-3
 Type: ipkg
@@ -105,7 +124,7 @@ http://www.kernel.org/pub/linux/utils/util-linux/
 
 Package: blkdiscard
 Submenu: disc
-Version: 2.25.2-4
+Version: 2.28-1
 Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread 
 Conflicts: 
 Menu-Depends: 
@@ -114,7 +133,7 @@ Section: utils
 Category: Utilities
 Title: discard sectors on a device
 Maintainer: 
-Source: util-linux-2.25.2.tar.xz
+Source: util-linux-2.28.tar.xz
 License: GPL-2.0
 LicenseFiles: COPYING getopt/COPYING libblkid/COPYING libmount/COPYING Documentation/licenses/COPYING.GPLv2 Documentation/licenses/COPYING.LGPLv2.1 libuuid/COPYING Documentation/licenses/COPYING.BSD-3
 Type: ipkg
@@ -127,7 +146,7 @@ http://www.kernel.org/pub/linux/utils/util-linux/
 
 Package: blkid
 Submenu: disc
-Version: 2.25.2-4
+Version: 2.28-1
 Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread +libblkid +libuuid
 Conflicts: 
 Menu-Depends: 
@@ -136,7 +155,7 @@ Section: utils
 Category: Utilities
 Title: locate/print block device attributes
 Maintainer: 
-Source: util-linux-2.25.2.tar.xz
+Source: util-linux-2.28.tar.xz
 License: GPL-2.0
 LicenseFiles: COPYING getopt/COPYING libblkid/COPYING libmount/COPYING Documentation/licenses/COPYING.GPLv2 Documentation/licenses/COPYING.LGPLv2.1 libuuid/COPYING Documentation/licenses/COPYING.BSD-3
 Type: ipkg
@@ -147,7 +166,7 @@ http://www.kernel.org/pub/linux/utils/util-linux/
 @@
 
 Package: cal
-Version: 2.25.2-4
+Version: 2.28-1
 Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread +libncurses
 Conflicts: 
 Menu-Depends: 
@@ -156,7 +175,7 @@ Section: utils
 Category: Utilities
 Title: display a calendar
 Maintainer: 
-Source: util-linux-2.25.2.tar.xz
+Source: util-linux-2.28.tar.xz
 License: GPL-2.0
 LicenseFiles: COPYING getopt/COPYING libblkid/COPYING libmount/COPYING Documentation/licenses/COPYING.GPLv2 Documentation/licenses/COPYING.LGPLv2.1 libuuid/COPYING Documentation/licenses/COPYING.BSD-3
 Type: ipkg
@@ -167,8 +186,8 @@ http://www.kernel.org/pub/linux/utils/util-linux/
 
 Package: cfdisk
 Submenu: disc
-Version: 2.25.2-4
-Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread +libblkid +libncurses +libsmartcols
+Version: 2.28-1
+Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread +libblkid +libncurses +libsmartcols +libfdisk +libmount
 Conflicts: 
 Menu-Depends: 
 Provides: 
@@ -176,7 +195,7 @@ Section: utils
 Category: Utilities
 Title: display or manipulate disk partition table
 Maintainer: 
-Source: util-linux-2.25.2.tar.xz
+Source: util-linux-2.28.tar.xz
 License: GPL-2.0
 LicenseFiles: COPYING getopt/COPYING libblkid/COPYING libmount/COPYING Documentation/licenses/COPYING.GPLv2 Documentation/licenses/COPYING.LGPLv2.1 libuuid/COPYING Documentation/licenses/COPYING.BSD-3
 Type: ipkg
@@ -186,7 +205,7 @@ http://www.kernel.org/pub/linux/utils/util-linux/
 @@
 
 Package: dmesg
-Version: 2.25.2-4
+Version: 2.28-1
 Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread +librt
 Conflicts: 
 Menu-Depends: 
@@ -195,7 +214,7 @@ Section: utils
 Category: Utilities
 Title: print or control the kernel ring buffer
 Maintainer: 
-Source: util-linux-2.25.2.tar.xz
+Source: util-linux-2.28.tar.xz
 License: GPL-2.0
 LicenseFiles: COPYING getopt/COPYING libblkid/COPYING libmount/COPYING Documentation/licenses/COPYING.GPLv2 Documentation/licenses/COPYING.LGPLv2.1 libuuid/COPYING Documentation/licenses/COPYING.BSD-3
 Type: ipkg
@@ -206,8 +225,8 @@ http://www.kernel.org/pub/linux/utils/util-linux/
 
 Package: fdisk
 Submenu: disc
-Version: 2.25.2-4
-Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread +libblkid +libsmartcols
+Version: 2.28-1
+Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread +libblkid +libsmartcols +libfdisk
 Conflicts: 
 Menu-Depends: 
 Provides: 
@@ -215,7 +234,7 @@ Section: utils
 Category: Utilities
 Title: manipulate disk partition table
 Maintainer: 
-Source: util-linux-2.25.2.tar.xz
+Source: util-linux-2.28.tar.xz
 License: GPL-2.0
 LicenseFiles: COPYING getopt/COPYING libblkid/COPYING libmount/COPYING Documentation/licenses/COPYING.GPLv2 Documentation/licenses/COPYING.LGPLv2.1 libuuid/COPYING Documentation/licenses/COPYING.BSD-3
 Type: ipkg
@@ -226,7 +245,7 @@ http://www.kernel.org/pub/linux/utils/util-linux/
 
 Package: findfs
 Submenu: disc
-Version: 2.25.2-4
+Version: 2.28-1
 Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread +libblkid
 Conflicts: 
 Menu-Depends: 
@@ -235,7 +254,7 @@ Section: utils
 Category: Utilities
 Title: find a filesystem by label or UUID
 Maintainer: 
-Source: util-linux-2.25.2.tar.xz
+Source: util-linux-2.28.tar.xz
 License: GPL-2.0
 LicenseFiles: COPYING getopt/COPYING libblkid/COPYING libmount/COPYING Documentation/licenses/COPYING.GPLv2 Documentation/licenses/COPYING.LGPLv2.1 libuuid/COPYING Documentation/licenses/COPYING.BSD-3
 Type: ipkg
@@ -246,7 +265,7 @@ http://www.kernel.org/pub/linux/utils/util-linux/
 @@
 
 Package: flock
-Version: 2.25.2-4
+Version: 2.28-1
 Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread 
 Conflicts: 
 Menu-Depends: 
@@ -255,7 +274,7 @@ Section: utils
 Category: Utilities
 Title: manage locks from shell scripts
 Maintainer: 
-Source: util-linux-2.25.2.tar.xz
+Source: util-linux-2.28.tar.xz
 License: GPL-2.0
 LicenseFiles: COPYING getopt/COPYING libblkid/COPYING libmount/COPYING Documentation/licenses/COPYING.GPLv2 Documentation/licenses/COPYING.LGPLv2.1 libuuid/COPYING Documentation/licenses/COPYING.BSD-3
 Type: ipkg
@@ -265,7 +284,7 @@ http://www.kernel.org/pub/linux/utils/util-linux/
 @@
 
 Package: getopt
-Version: 2.25.2-4
+Version: 2.28-1
 Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread 
 Conflicts: 
 Menu-Depends: 
@@ -274,7 +293,7 @@ Section: utils
 Category: Utilities
 Title: parse command options (enhanced)
 Maintainer: 
-Source: util-linux-2.25.2.tar.xz
+Source: util-linux-2.28.tar.xz
 License: GPL-2.0
 LicenseFiles: COPYING getopt/COPYING libblkid/COPYING libmount/COPYING Documentation/licenses/COPYING.GPLv2 Documentation/licenses/COPYING.LGPLv2.1 libuuid/COPYING Documentation/licenses/COPYING.BSD-3
 Type: ipkg
@@ -285,7 +304,7 @@ http://www.kernel.org/pub/linux/utils/util-linux/
 @@
 
 Package: hwclock
-Version: 2.25.2-4
+Version: 2.28-1
 Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread 
 Conflicts: 
 Menu-Depends: 
@@ -294,7 +313,7 @@ Section: utils
 Category: Utilities
 Title: query or set the hardware clock
 Maintainer: 
-Source: util-linux-2.25.2.tar.xz
+Source: util-linux-2.28.tar.xz
 License: GPL-2.0
 LicenseFiles: COPYING getopt/COPYING libblkid/COPYING libmount/COPYING Documentation/licenses/COPYING.GPLv2 Documentation/licenses/COPYING.LGPLv2.1 libuuid/COPYING Documentation/licenses/COPYING.BSD-3
 Type: ipkg
@@ -304,7 +323,7 @@ http://www.kernel.org/pub/linux/utils/util-linux/
 @@
 
 Package: logger
-Version: 2.25.2-4
+Version: 2.28-1
 Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread 
 Conflicts: 
 Menu-Depends: 
@@ -313,7 +332,7 @@ Section: utils
 Category: Utilities
 Title: a shell command interface to the syslog system log module
 Maintainer: 
-Source: util-linux-2.25.2.tar.xz
+Source: util-linux-2.28.tar.xz
 License: GPL-2.0
 LicenseFiles: COPYING getopt/COPYING libblkid/COPYING libmount/COPYING Documentation/licenses/COPYING.GPLv2 Documentation/licenses/COPYING.LGPLv2.1 libuuid/COPYING Documentation/licenses/COPYING.BSD-3
 Type: ipkg
@@ -324,7 +343,7 @@ http://www.kernel.org/pub/linux/utils/util-linux/
 @@
 
 Package: look
-Version: 2.25.2-4
+Version: 2.28-1
 Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread 
 Conflicts: 
 Menu-Depends: 
@@ -333,7 +352,7 @@ Section: utils
 Category: Utilities
 Title: display lines beginning with a given string
 Maintainer: 
-Source: util-linux-2.25.2.tar.xz
+Source: util-linux-2.28.tar.xz
 License: GPL-2.0
 LicenseFiles: COPYING getopt/COPYING libblkid/COPYING libmount/COPYING Documentation/licenses/COPYING.GPLv2 Documentation/licenses/COPYING.LGPLv2.1 libuuid/COPYING Documentation/licenses/COPYING.BSD-3
 Type: ipkg
@@ -343,7 +362,7 @@ http://www.kernel.org/pub/linux/utils/util-linux/
 @@
 
 Package: losetup
-Version: 2.25.2-4
+Version: 2.28-1
 Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread +libsmartcols
 Conflicts: 
 Menu-Depends: 
@@ -352,7 +371,7 @@ Section: utils
 Category: Utilities
 Title: set up and control loop devices
 Maintainer: 
-Source: util-linux-2.25.2.tar.xz
+Source: util-linux-2.28.tar.xz
 License: GPL-2.0
 LicenseFiles: COPYING getopt/COPYING libblkid/COPYING libmount/COPYING Documentation/licenses/COPYING.GPLv2 Documentation/licenses/COPYING.LGPLv2.1 libuuid/COPYING Documentation/licenses/COPYING.BSD-3
 Type: ipkg
@@ -364,7 +383,7 @@ http://www.kernel.org/pub/linux/utils/util-linux/
 
 Package: lsblk
 Submenu: disc
-Version: 2.25.2-4
+Version: 2.28-1
 Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread +libblkid +libmount +libsmartcols
 Conflicts: 
 Menu-Depends: 
@@ -373,7 +392,7 @@ Section: utils
 Category: Utilities
 Title: list block devices
 Maintainer: 
-Source: util-linux-2.25.2.tar.xz
+Source: util-linux-2.28.tar.xz
 License: GPL-2.0
 LicenseFiles: COPYING getopt/COPYING libblkid/COPYING libmount/COPYING Documentation/licenses/COPYING.GPLv2 Documentation/licenses/COPYING.LGPLv2.1 libuuid/COPYING Documentation/licenses/COPYING.BSD-3
 Type: ipkg
@@ -383,7 +402,7 @@ http://www.kernel.org/pub/linux/utils/util-linux/
 @@
 
 Package: mcookie
-Version: 2.25.2-4
+Version: 2.28-1
 Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread 
 Conflicts: 
 Menu-Depends: 
@@ -392,7 +411,7 @@ Section: utils
 Category: Utilities
 Title: generate magic cookies for xauth
 Maintainer: 
-Source: util-linux-2.25.2.tar.xz
+Source: util-linux-2.28.tar.xz
 License: GPL-2.0
 LicenseFiles: COPYING getopt/COPYING libblkid/COPYING libmount/COPYING Documentation/licenses/COPYING.GPLv2 Documentation/licenses/COPYING.LGPLv2.1 libuuid/COPYING Documentation/licenses/COPYING.BSD-3
 Type: ipkg
@@ -403,7 +422,7 @@ http://www.kernel.org/pub/linux/utils/util-linux/
 @@
 
 Package: mount-utils
-Version: 2.25.2-4
+Version: 2.28-1
 Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread +libmount +libsmartcols
 Conflicts: 
 Menu-Depends: 
@@ -412,7 +431,7 @@ Section: utils
 Category: Utilities
 Title: related (u)mount utilities
 Maintainer: 
-Source: util-linux-2.25.2.tar.xz
+Source: util-linux-2.28.tar.xz
 License: GPL-2.0
 LicenseFiles: COPYING getopt/COPYING libblkid/COPYING libmount/COPYING Documentation/licenses/COPYING.GPLv2 Documentation/licenses/COPYING.LGPLv2.1 libuuid/COPYING Documentation/licenses/COPYING.BSD-3
 Type: ipkg
@@ -422,7 +441,7 @@ http://www.kernel.org/pub/linux/utils/util-linux/
 @@
 
 Package: namei
-Version: 2.25.2-4
+Version: 2.28-1
 Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread 
 Conflicts: 
 Menu-Depends: 
@@ -431,7 +450,7 @@ Section: utils
 Category: Utilities
 Title: follow a pathname until a terminal point is found
 Maintainer: 
-Source: util-linux-2.25.2.tar.xz
+Source: util-linux-2.28.tar.xz
 License: GPL-2.0
 LicenseFiles: COPYING getopt/COPYING libblkid/COPYING libmount/COPYING Documentation/licenses/COPYING.GPLv2 Documentation/licenses/COPYING.LGPLv2.1 libuuid/COPYING Documentation/licenses/COPYING.BSD-3
 Type: ipkg
@@ -442,7 +461,7 @@ http://www.kernel.org/pub/linux/utils/util-linux/
 @@
 
 Package: prlimit
-Version: 2.25.2-4
+Version: 2.28-1
 Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread +libsmartcols
 Conflicts: 
 Menu-Depends: 
@@ -451,7 +470,7 @@ Section: utils
 Category: Utilities
 Title: get and set process resource limits
 Maintainer: 
-Source: util-linux-2.25.2.tar.xz
+Source: util-linux-2.28.tar.xz
 License: GPL-2.0
 LicenseFiles: COPYING getopt/COPYING libblkid/COPYING libmount/COPYING Documentation/licenses/COPYING.GPLv2 Documentation/licenses/COPYING.LGPLv2.1 libuuid/COPYING Documentation/licenses/COPYING.BSD-3
 Type: ipkg
@@ -462,7 +481,7 @@ http://www.kernel.org/pub/linux/utils/util-linux/
 @@
 
 Package: rename
-Version: 2.25.2-4
+Version: 2.28-1
 Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread 
 Conflicts: 
 Menu-Depends: 
@@ -471,7 +490,7 @@ Section: utils
 Category: Utilities
 Title: rename files
 Maintainer: 
-Source: util-linux-2.25.2.tar.xz
+Source: util-linux-2.28.tar.xz
 License: GPL-2.0
 LicenseFiles: COPYING getopt/COPYING libblkid/COPYING libmount/COPYING Documentation/licenses/COPYING.GPLv2 Documentation/licenses/COPYING.LGPLv2.1 libuuid/COPYING Documentation/licenses/COPYING.BSD-3
 Type: ipkg
@@ -483,7 +502,7 @@ http://www.kernel.org/pub/linux/utils/util-linux/
 
 Package: partx-utils
 Submenu: disc
-Version: 2.25.2-4
+Version: 2.28-1
 Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread +libblkid +libsmartcols
 Conflicts: 
 Menu-Depends: 
@@ -492,7 +511,7 @@ Section: utils
 Category: Utilities
 Title: inform kernel about the presence and numbering of on-disk partitions
 Maintainer: 
-Source: util-linux-2.25.2.tar.xz
+Source: util-linux-2.28.tar.xz
 License: GPL-2.0
 LicenseFiles: COPYING getopt/COPYING libblkid/COPYING libmount/COPYING Documentation/licenses/COPYING.GPLv2 Documentation/licenses/COPYING.LGPLv2.1 libuuid/COPYING Documentation/licenses/COPYING.BSD-3
 Type: ipkg
@@ -503,7 +522,7 @@ http://www.kernel.org/pub/linux/utils/util-linux/
 
 Package: script-utils
 Submenu: Terminal
-Version: 2.25.2-4
+Version: 2.28-1
 Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread 
 Conflicts: 
 Menu-Depends: 
@@ -512,7 +531,7 @@ Section: utils
 Category: Utilities
 Title: make and replay typescript of terminal session
 Maintainer: 
-Source: util-linux-2.25.2.tar.xz
+Source: util-linux-2.28.tar.xz
 License: GPL-2.0
 LicenseFiles: COPYING getopt/COPYING libblkid/COPYING libmount/COPYING Documentation/licenses/COPYING.GPLv2 Documentation/licenses/COPYING.LGPLv2.1 libuuid/COPYING Documentation/licenses/COPYING.BSD-3
 Type: ipkg
@@ -523,7 +542,7 @@ http://www.kernel.org/pub/linux/utils/util-linux/
 
 Package: setterm
 Submenu: Terminal
-Version: 2.25.2-4
+Version: 2.28-1
 Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread +libncurses
 Conflicts: 
 Menu-Depends: 
@@ -532,7 +551,7 @@ Section: utils
 Category: Utilities
 Title: set terminal attributes
 Maintainer: 
-Source: util-linux-2.25.2.tar.xz
+Source: util-linux-2.28.tar.xz
 License: GPL-2.0
 LicenseFiles: COPYING getopt/COPYING libblkid/COPYING libmount/COPYING Documentation/licenses/COPYING.GPLv2 Documentation/licenses/COPYING.LGPLv2.1 libuuid/COPYING Documentation/licenses/COPYING.BSD-3
 Type: ipkg
@@ -544,7 +563,7 @@ http://www.kernel.org/pub/linux/utils/util-linux/
 
 Package: sfdisk
 Submenu: disc
-Version: 2.25.2-4
+Version: 2.28-1
 Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread 
 Conflicts: 
 Menu-Depends: 
@@ -553,7 +572,7 @@ Section: utils
 Category: Utilities
 Title: partition table manipulator for Linux
 Maintainer: 
-Source: util-linux-2.25.2.tar.xz
+Source: util-linux-2.28.tar.xz
 License: GPL-2.0
 LicenseFiles: COPYING getopt/COPYING libblkid/COPYING libmount/COPYING Documentation/licenses/COPYING.GPLv2 Documentation/licenses/COPYING.LGPLv2.1 libuuid/COPYING Documentation/licenses/COPYING.BSD-3
 Type: ipkg
@@ -565,7 +584,7 @@ http://www.kernel.org/pub/linux/utils/util-linux/
 
 Package: swap-utils
 Submenu: disc
-Version: 2.25.2-4
+Version: 2.28-1
 Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread +libblkid
 Conflicts: 
 Menu-Depends: 
@@ -574,7 +593,7 @@ Section: utils
 Category: Utilities
 Title: swap space management utilities
 Maintainer: 
-Source: util-linux-2.25.2.tar.xz
+Source: util-linux-2.28.tar.xz
 License: GPL-2.0
 LicenseFiles: COPYING getopt/COPYING libblkid/COPYING libmount/COPYING Documentation/licenses/COPYING.GPLv2 Documentation/licenses/COPYING.LGPLv2.1 libuuid/COPYING Documentation/licenses/COPYING.BSD-3
 Type: ipkg
@@ -584,7 +603,7 @@ http://www.kernel.org/pub/linux/utils/util-linux/
 @@
 
 Package: uuidd
-Version: 2.25.2-4
+Version: 2.28-1
 Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread +libuuid
 Conflicts: 
 Menu-Depends: 
@@ -593,7 +612,7 @@ Section: utils
 Category: Utilities
 Title: UUID generation daemon
 Maintainer: 
-Source: util-linux-2.25.2.tar.xz
+Source: util-linux-2.28.tar.xz
 License: GPL-2.0
 LicenseFiles: COPYING getopt/COPYING libblkid/COPYING libmount/COPYING Documentation/licenses/COPYING.GPLv2 Documentation/licenses/COPYING.LGPLv2.1 libuuid/COPYING Documentation/licenses/COPYING.BSD-3
 Type: ipkg
@@ -606,7 +625,7 @@ http://www.kernel.org/pub/linux/utils/util-linux/
 @@
 
 Package: uuidgen
-Version: 2.25.2-4
+Version: 2.28-1
 Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread +libuuid
 Conflicts: 
 Menu-Depends: 
@@ -615,7 +634,7 @@ Section: utils
 Category: Utilities
 Title: create a new UUID value
 Maintainer: 
-Source: util-linux-2.25.2.tar.xz
+Source: util-linux-2.28.tar.xz
 License: GPL-2.0
 LicenseFiles: COPYING getopt/COPYING libblkid/COPYING libmount/COPYING Documentation/licenses/COPYING.GPLv2 Documentation/licenses/COPYING.LGPLv2.1 libuuid/COPYING Documentation/licenses/COPYING.BSD-3
 Type: ipkg
@@ -629,7 +648,7 @@ http://www.kernel.org/pub/linux/utils/util-linux/
 
 Package: wall
 Submenu: Terminal
-Version: 2.25.2-4
+Version: 2.28-1
 Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread 
 Conflicts: 
 Menu-Depends: 
@@ -638,7 +657,7 @@ Section: utils
 Category: Utilities
 Title: send a message to everybody's terminal
 Maintainer: 
-Source: util-linux-2.25.2.tar.xz
+Source: util-linux-2.28.tar.xz
 License: GPL-2.0
 LicenseFiles: COPYING getopt/COPYING libblkid/COPYING libmount/COPYING Documentation/licenses/COPYING.GPLv2 Documentation/licenses/COPYING.LGPLv2.1 libuuid/COPYING Documentation/licenses/COPYING.BSD-3
 Type: ipkg
@@ -649,7 +668,7 @@ http://www.kernel.org/pub/linux/utils/util-linux/
 @@
 
 Package: whereis
-Version: 2.25.2-4
+Version: 2.28-1
 Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread 
 Conflicts: 
 Menu-Depends: 
@@ -658,7 +677,7 @@ Section: utils
 Category: Utilities
 Title: locate the binary, source, and manual page files for a command
 Maintainer: 
-Source: util-linux-2.25.2.tar.xz
+Source: util-linux-2.28.tar.xz
 License: GPL-2.0
 LicenseFiles: COPYING getopt/COPYING libblkid/COPYING libmount/COPYING Documentation/licenses/COPYING.GPLv2 Documentation/licenses/COPYING.LGPLv2.1 libuuid/COPYING Documentation/licenses/COPYING.BSD-3
 Type: ipkg
@@ -669,7 +688,7 @@ http://www.kernel.org/pub/linux/utils/util-linux/
 
 Package: wipefs
 Submenu: disc
-Version: 2.25.2-4
+Version: 2.28-1
 Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread +libblkid
 Conflicts: 
 Menu-Depends: 
@@ -678,7 +697,7 @@ Section: utils
 Category: Utilities
 Title: wipe a signature from a device
 Maintainer: 
-Source: util-linux-2.25.2.tar.xz
+Source: util-linux-2.28.tar.xz
 License: GPL-2.0
 LicenseFiles: COPYING getopt/COPYING libblkid/COPYING libmount/COPYING Documentation/licenses/COPYING.GPLv2 Documentation/licenses/COPYING.LGPLv2.1 libuuid/COPYING Documentation/licenses/COPYING.BSD-3
 Type: ipkg

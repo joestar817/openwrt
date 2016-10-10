@@ -9,12 +9,12 @@ Build-Depends: lua
 Section: libs
 Category: Libraries
 Title: Basic utility library
-Maintainer: Felix Fietkau <nbd@openwrt.org>
+Maintainer: Felix Fietkau <nbd@nbd.name>
 Source: libubox-2016-02-26-5326ce1046425154ab715387949728cfb09f4083.tar.gz
 License: ISC
 Type: ipkg
 Description: Basic utility library
-Felix Fietkau <nbd@openwrt.org>
+Felix Fietkau <nbd@nbd.name>
 @@
 
 Package: libblobmsg-json
@@ -27,12 +27,12 @@ Build-Depends: lua
 Section: libs
 Category: Libraries
 Title: blobmsg <-> json conversion library
-Maintainer: Felix Fietkau <nbd@openwrt.org>
+Maintainer: Felix Fietkau <nbd@nbd.name>
 Source: libubox-2016-02-26-5326ce1046425154ab715387949728cfb09f4083.tar.gz
 License: ISC
 Type: ipkg
 Description: blobmsg <-> json conversion library
-Felix Fietkau <nbd@openwrt.org>
+Felix Fietkau <nbd@nbd.name>
 @@
 
 Package: jshn
@@ -45,12 +45,12 @@ Build-Depends: lua
 Section: utils
 Category: Utilities
 Title: JSON SHell Notation
-Maintainer: Felix Fietkau <nbd@openwrt.org>
+Maintainer: Felix Fietkau <nbd@nbd.name>
 Source: libubox-2016-02-26-5326ce1046425154ab715387949728cfb09f4083.tar.gz
 License: ISC
 Type: ipkg
 Description:   Library for parsing and generating JSON from shell scripts
-Felix Fietkau <nbd@openwrt.org>
+Felix Fietkau <nbd@nbd.name>
 @@
 
 Package: libjson-script
@@ -63,12 +63,12 @@ Build-Depends: lua
 Section: utils
 Category: Utilities
 Title: Minimalistic JSON based scripting engine
-Maintainer: Felix Fietkau <nbd@openwrt.org>
+Maintainer: Felix Fietkau <nbd@nbd.name>
 Source: libubox-2016-02-26-5326ce1046425154ab715387949728cfb09f4083.tar.gz
 License: ISC
 Type: ipkg
 Description: Minimalistic JSON based scripting engine
-Felix Fietkau <nbd@openwrt.org>
+Felix Fietkau <nbd@nbd.name>
 @@
 
 Package: libubox-lua
@@ -81,12 +81,12 @@ Build-Depends: lua
 Section: libs
 Category: Libraries
 Title: Lua binding for the OpenWrt Basic utility library
-Maintainer: Felix Fietkau <nbd@openwrt.org>
+Maintainer: Felix Fietkau <nbd@nbd.name>
 Source: libubox-2016-02-26-5326ce1046425154ab715387949728cfb09f4083.tar.gz
 License: ISC
 Type: ipkg
 Description: Lua binding for the OpenWrt Basic utility library
-Felix Fietkau <nbd@openwrt.org>
+Felix Fietkau <nbd@nbd.name>
 @@
 
 

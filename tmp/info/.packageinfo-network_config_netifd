@@ -1,6 +1,6 @@
 Source-Makefile: package/network/config/netifd/Makefile
 Package: netifd
-Version: 2016-03-04-da687c2689f7ff2af1dccc9a428806dd15c3d554
+Version: 2016-03-31-39d9ceeb96162a83a3f5fa63e6aaa1ccb38caa62
 Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread +libuci +libnl-tiny +libubus +ubus +ubusd +jshn +libubox
 Conflicts: 
 Menu-Depends: 
@@ -8,12 +8,12 @@ Provides:
 Section: base
 Category: Base system
 Title: OpenWrt Network Interface Configuration Daemon
-Maintainer: Felix Fietkau <nbd@openwrt.org>
-Source: netifd-2016-03-04-da687c2689f7ff2af1dccc9a428806dd15c3d554.tar.gz
+Maintainer: Felix Fietkau <nbd@nbd.name>
+Source: netifd-2016-03-31-39d9ceeb96162a83a3f5fa63e6aaa1ccb38caa62.tar.gz
 License: GPL-2.0
 Type: ipkg
 Description: OpenWrt Network Interface Configuration Daemon
-Felix Fietkau <nbd@openwrt.org>
+Felix Fietkau <nbd@nbd.name>
 @@
 
 

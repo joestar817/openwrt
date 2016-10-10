@@ -9,12 +9,12 @@ Build-Types: host
 Section: base
 Category: Base system
 Title: OpenWrt signature verification utility
-Maintainer: Felix Fietkau <nbd@openwrt.org>
+Maintainer: Felix Fietkau <nbd@nbd.name>
 Source: usign-2015-05-08-cf8dcdb8a4e874c77f3e9a8e9b643e8c17b19131.tar.gz
 License: ISC
 Type: ipkg
 Description: OpenWrt signature verification utility
-Felix Fietkau <nbd@openwrt.org>
+Felix Fietkau <nbd@nbd.name>
 @@
 
 

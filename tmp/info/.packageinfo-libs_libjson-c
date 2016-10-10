@@ -8,14 +8,14 @@ Provides:
 Section: libs
 Category: Libraries
 Title: javascript object notation
-Maintainer: Felix Fietkau <nbd@openwrt.org>
+Maintainer: Felix Fietkau <nbd@nbd.name>
 Source: json-c-0.12.tar.gz
 License: MIT
 LicenseFiles: COPYING
 Type: ipkg
 Description:  This package contains a library for javascript object notation backends.
 http://oss.metaparadigm.com/json-c/
-Felix Fietkau <nbd@openwrt.org>
+Felix Fietkau <nbd@nbd.name>
 @@
 
 

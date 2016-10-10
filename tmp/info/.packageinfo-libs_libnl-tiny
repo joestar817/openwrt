@@ -8,12 +8,12 @@ Provides:
 Section: libs
 Category: Libraries
 Title: netlink socket library
-Maintainer: Felix Fietkau <nbd@openwrt.org>
+Maintainer: Felix Fietkau <nbd@nbd.name>
 Source: 
 License: LGPL-2.1
 Type: ipkg
 Description:  This package contains a stripped down version of libnl
-Felix Fietkau <nbd@openwrt.org>
+Felix Fietkau <nbd@nbd.name>
 @@
 
 

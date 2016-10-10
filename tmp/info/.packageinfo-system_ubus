@@ -8,12 +8,12 @@ Provides:
 Section: libs
 Category: Libraries
 Title: OpenWrt RPC client library
-Maintainer: Felix Fietkau <nbd@openwrt.org>
+Maintainer: Felix Fietkau <nbd@nbd.name>
 Source: ubus-2016-01-26-619f3a160de4f417226b69039538882787b3811c.tar.gz
 License: LGPL-2.1
 Type: ipkg
 Description: OpenWrt RPC client library
-Felix Fietkau <nbd@openwrt.org>
+Felix Fietkau <nbd@nbd.name>
 @@
 
 Package: libubus-lua
@@ -25,12 +25,12 @@ Provides:
 Section: libs
 Category: Libraries
 Title: Lua binding for the OpenWrt RPC client
-Maintainer: Felix Fietkau <nbd@openwrt.org>
+Maintainer: Felix Fietkau <nbd@nbd.name>
 Source: ubus-2016-01-26-619f3a160de4f417226b69039538882787b3811c.tar.gz
 License: LGPL-2.1
 Type: ipkg
 Description: Lua binding for the OpenWrt RPC client
-Felix Fietkau <nbd@openwrt.org>
+Felix Fietkau <nbd@nbd.name>
 @@
 
 Package: ubus
@@ -42,12 +42,12 @@ Provides:
 Section: base
 Category: Base system
 Title: OpenWrt RPC client utility
-Maintainer: Felix Fietkau <nbd@openwrt.org>
+Maintainer: Felix Fietkau <nbd@nbd.name>
 Source: ubus-2016-01-26-619f3a160de4f417226b69039538882787b3811c.tar.gz
 License: LGPL-2.1
 Type: ipkg
 Description: OpenWrt RPC client utility
-Felix Fietkau <nbd@openwrt.org>
+Felix Fietkau <nbd@nbd.name>
 @@
 
 Package: ubusd
@@ -59,12 +59,12 @@ Provides:
 Section: base
 Category: Base system
 Title: OpenWrt RPC daemon
-Maintainer: Felix Fietkau <nbd@openwrt.org>
+Maintainer: Felix Fietkau <nbd@nbd.name>
 Source: ubus-2016-01-26-619f3a160de4f417226b69039538882787b3811c.tar.gz
 License: LGPL-2.1
 Type: ipkg
 Description: OpenWrt RPC daemon
-Felix Fietkau <nbd@openwrt.org>
+Felix Fietkau <nbd@nbd.name>
 @@
 
 

@@ -9,13 +9,13 @@ Provides:
 Section: kernel
 Category: Kernel modules
 Title: MediaTek MT76x2/MT7603 wireless driver
-Maintainer: Felix Fietkau <nbd@openwrt.org>
+Maintainer: Felix Fietkau <nbd@nbd.name>
 Source: mt76-2016-03-04-7059cc27df894a4b845b6deb7c51425ffb4b7c5c.tar.xz
 License: GPLv2
 Type: ipkg
 Package-Subdir: kernel
 Description: MediaTek MT76x2/MT7603 wireless driver
-Felix Fietkau <nbd@openwrt.org>
+Felix Fietkau <nbd@nbd.name>
 @@
 
 

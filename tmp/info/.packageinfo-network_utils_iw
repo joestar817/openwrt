@@ -8,13 +8,13 @@ Provides:
 Section: net
 Category: Network
 Title: cfg80211 interface configuration utility
-Maintainer: Felix Fietkau <nbd@openwrt.org>
+Maintainer: Felix Fietkau <nbd@nbd.name>
 Source: iw-4.3.tar.xz
 License: GPL-2.0
 Type: ipkg
 Description: cfg80211 interface configuration utility
 http://wireless.kernel.org/en/users/Documentation/iw
-Felix Fietkau <nbd@openwrt.org>
+Felix Fietkau <nbd@nbd.name>
 @@
 
 

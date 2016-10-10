@@ -10,12 +10,12 @@ Default-Variant: polarssl
 Section: libs
 Category: Libraries
 Title: ustream SSL Library (polarssl)
-Maintainer: Felix Fietkau <nbd@openwrt.org>
+Maintainer: Felix Fietkau <nbd@nbd.name>
 Source: ustream-ssl-2016-02-21-6ba14990e63fc956e8aff3b0b09be1fd3aaa6d75.tar.gz
 License: ISC
 Type: ipkg
 Description: ustream SSL Library (polarssl)
-Felix Fietkau <nbd@openwrt.org>
+Felix Fietkau <nbd@nbd.name>
 @@
 
 Package: libustream-mbedtls
@@ -29,12 +29,12 @@ Default-Variant: mbedtls
 Section: libs
 Category: Libraries
 Title: ustream SSL Library (mbedtls)
-Maintainer: Felix Fietkau <nbd@openwrt.org>
+Maintainer: Felix Fietkau <nbd@nbd.name>
 Source: ustream-ssl-2016-02-21-6ba14990e63fc956e8aff3b0b09be1fd3aaa6d75.tar.gz
 License: ISC
 Type: ipkg
 Description: ustream SSL Library (mbedtls)
-Felix Fietkau <nbd@openwrt.org>
+Felix Fietkau <nbd@nbd.name>
 @@
 
 Package: libustream-cyassl
@@ -47,12 +47,12 @@ Build-Variant: cyassl
 Section: libs
 Category: Libraries
 Title: ustream SSL Library (cyassl)
-Maintainer: Felix Fietkau <nbd@openwrt.org>
+Maintainer: Felix Fietkau <nbd@nbd.name>
 Source: ustream-ssl-2016-02-21-6ba14990e63fc956e8aff3b0b09be1fd3aaa6d75.tar.gz
 License: ISC
 Type: ipkg
 Description: ustream SSL Library (cyassl)
-Felix Fietkau <nbd@openwrt.org>
+Felix Fietkau <nbd@nbd.name>
 @@
 
 Package: libustream-openssl
@@ -65,12 +65,12 @@ Build-Variant: openssl
 Section: libs
 Category: Libraries
 Title: ustream SSL Library (openssl)
-Maintainer: Felix Fietkau <nbd@openwrt.org>
+Maintainer: Felix Fietkau <nbd@nbd.name>
 Source: ustream-ssl-2016-02-21-6ba14990e63fc956e8aff3b0b09be1fd3aaa6d75.tar.gz
 License: ISC
 Type: ipkg
 Description: ustream SSL Library (openssl)
-Felix Fietkau <nbd@openwrt.org>
+Felix Fietkau <nbd@nbd.name>
 @@
 
 

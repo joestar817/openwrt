@@ -9,12 +9,12 @@ Build-Depends: ustream-ssl
 Section: libs
 Category: Libraries
 Title: HTTP/1.1 client library
-Maintainer: Felix Fietkau <nbd@openwrt.org>
+Maintainer: Felix Fietkau <nbd@nbd.name>
 Source: uclient-2016-01-28-2e0918c7e0612449024caaaa8d44fb2d7a33f5f3.tar.gz
 License: ISC
 Type: ipkg
 Description: HTTP/1.1 client library
-Felix Fietkau <nbd@openwrt.org>
+Felix Fietkau <nbd@nbd.name>
 @@
 
 Package: uclient-fetch
@@ -27,12 +27,12 @@ Build-Depends: ustream-ssl
 Section: net
 Category: Network
 Title: Tiny wget replacement using libuclient
-Maintainer: Felix Fietkau <nbd@openwrt.org>
+Maintainer: Felix Fietkau <nbd@nbd.name>
 Source: uclient-2016-01-28-2e0918c7e0612449024caaaa8d44fb2d7a33f5f3.tar.gz
 License: ISC
 Type: ipkg
 Description: Tiny wget replacement using libuclient
-Felix Fietkau <nbd@openwrt.org>
+Felix Fietkau <nbd@nbd.name>
 @@
 
 

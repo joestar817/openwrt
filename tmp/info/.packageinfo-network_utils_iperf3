@@ -8,7 +8,7 @@ Provides:
 Section: net
 Category: Network
 Title: Internet Protocol bandwidth measuring tool
-Maintainer: Felix Fietkau <nbd@openwrt.org>
+Maintainer: Felix Fietkau <nbd@nbd.name>
 Source: iperf-3.0.11.tar.gz
 License: BSD-3-Clause
 Type: ipkg
@@ -16,7 +16,7 @@ Description:  Iperf is a modern alternative for measuring TCP and UDP bandwidth
  performance, allowing the tuning of various parameters and
  characteristics.
 https://github.com/esnet/iperf
-Felix Fietkau <nbd@openwrt.org>
+Felix Fietkau <nbd@nbd.name>
 @@
 
 

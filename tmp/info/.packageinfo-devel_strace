@@ -8,7 +8,7 @@ Provides:
 Section: utils
 Category: Utilities
 Title: System call tracer
-Maintainer: Felix Fietkau <nbd@openwrt.org>
+Maintainer: Felix Fietkau <nbd@nbd.name>
 Source: strace-4.11.tar.xz
 License: BSD-3c
 LicenseFiles: COPYRIGHT
@@ -16,7 +16,7 @@ Type: ipkg
 Description: A useful diagnostic, instructional, and debugging tool. Allows you to track what
 system calls a program makes while it is running.
 http://strace.sourceforge.net/
-Felix Fietkau <nbd@openwrt.org>
+Felix Fietkau <nbd@nbd.name>
 @@
 
 

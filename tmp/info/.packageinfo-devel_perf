@@ -8,12 +8,12 @@ Provides:
 Section: devel
 Category: Development
 Title: Linux performance monitoring tool
-Maintainer: Felix Fietkau <nbd@openwrt.org>
+Maintainer: Felix Fietkau <nbd@nbd.name>
 Source: 
 Type: ipkg
 Description:   perf is the Linux performance monitoring tool
 http://www.kernel.org
-Felix Fietkau <nbd@openwrt.org>
+Felix Fietkau <nbd@nbd.name>
 @@
 
 
