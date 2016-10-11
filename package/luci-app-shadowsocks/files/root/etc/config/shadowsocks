@@ -1,0 +1,30 @@
+
+config transparent_proxy
+	option local_port '1234'
+	option udp_relay_server 'cfg084a8f'
+	option main_server 'cfg084a8f'
+
+config socks5_proxy
+	option local_port '1080'
+	option server 'cfg084a8f'
+
+config port_forward
+	option local_port '5300'
+	option destination '8.8.4.4:53'
+	option server 'cfg084a8f'
+
+config servers
+	option auth '0'
+	option fast_open '0'
+	option timeout '60'
+	option alias 'defaults'
+	option server '1.2.3.4'
+	option server_port '1024'
+	option password 'password'
+	option encrypt_method 'aes-256-cfb'
+
+config access_control
+	option self_proxy '1'
+	option wan_bp_list '/etc/chinadns_chnroute.txt'
+	option lan_target 'SS_SPEC_WAN_AC'
+
